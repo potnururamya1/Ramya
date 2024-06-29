@@ -1,1 +1,30 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
 
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+    
+       
+       Console.WriteLine("Enter the number:");
+       int number = Convert.ToInt32(Console.ReadLine());
+       if(number>0)
+       {
+           Console.WriteLine("The number is positive");
+       }
+       else if(number<0)
+       {
+           Console.WriteLine("The number is negative");
+       }
+       else 
+       {
+           Console.WriteLine("The is zero");
+       }
+       Console.ReadLine();
+       
+       
+    }
+}
